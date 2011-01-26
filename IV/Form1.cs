@@ -35,6 +35,28 @@ namespace IV
             zgCall1.Size = new Size(this.ClientRectangle.Width - 20, this.ClientRectangle.Height - 20);
         }
 
+        private PointPairList makePoints()
+        {
+            PointPairList list = new PointPairList();
+            double x, y;
+            for (int i = 0; i < 10; i++)
+            {
+                x = 120 + i;
+                y = i + 1.0;
+                list.Add(x, y);
+            }
+            return list;
+        }
+
+        private string MyPointValueHandler(ZedGraphControl control, GraphPane pane,
+                CurveItem curve, int iPt)
+        {
+            // Get the PointPair that is under the mouse
+            PointPair pt = curve[iPt];
+
+            return curve.Label.Text + " IV is " + pt.Y.ToString("f2") + "% " + pt.X.ToString("f1") + " strike";
+        }
+
         private void CreateGraph(ZedGraphControl zgc)
         {
             GraphPane myPane = zgc.GraphPane;
@@ -44,18 +66,9 @@ namespace IV
             myPane.XAxis.Title.Text = "Strike";
             myPane.YAxis.Title.Text = "IV";
 
-            // Make up some data arrays based on the Sine function
-            double x, y;
-            PointPairList list = new PointPairList();
-            for (int i = 0; i < 37; i++)
-            {
-                x = ((double)i - 18.0) / 5.0;
-                y = x * x + 1.0;
-                list.Add(x, y);
-            }
+            PointPairList list = makePoints();
 
             // Generate a red curve with diamond
-            // symbols, and "Porsche" in the legend
             LineItem myCurve = myPane.AddCurve("CALL",
                list, Color.Green, SymbolType.Diamond);
 
@@ -68,8 +81,30 @@ namespace IV
             myPane.YAxis.MajorTic.IsOpposite = false;
             myPane.YAxis.MinorTic.IsOpposite = false;
 
+            // Don't display the Y zero line
+            myPane.YAxis.MajorGrid.IsZeroLine = false;
+            // Align the Y axis labels so they are flush to the axis
+            myPane.YAxis.Scale.Align = AlignP.Inside;
+            // Manually set the axis range
+            myPane.YAxis.Scale.Min = 0;
+            myPane.YAxis.Scale.Max = 20;
+            myPane.XAxis.Scale.Min = 100;
+            myPane.XAxis.Scale.Max = 150;
+
+            // Enable scrollbars if needed
+            zgc.IsShowHScrollBar = true;
+            zgc.IsShowVScrollBar = true;
+            zgc.IsAutoScrollRange = true;
+            zgc.IsScrollY2 = true;
+
+            // Show tooltips when the mouse hovers over a point
+            zgc.IsShowPointValues = true;
+            zgc.PointValueEvent += new ZedGraphControl.PointValueHandler(MyPointValueHandler);
+
             // Calculate the Axis Scale Ranges
             zgc.AxisChange();
+            // Make sure the Graph gets redrawn
+            zgc.Invalidate();
         }
     }
 }
