@@ -18,7 +18,7 @@ namespace DDEConsole
         {
             System.Console.WriteLine("DDE Console");
             String _myapp = "TOS";
-            String _topic = "LAST";
+            String _topic = "ASK";//"LAST";
             String _item = "SPY";
 
             try

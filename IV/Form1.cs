@@ -7,20 +7,41 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using ZedGraph;
+using NDde.Client;
+using System.Reflection;
 
 namespace IV
 {
     public partial class Form1 : Form
     {
+        private int AssetValue = 100;
+
+        private delegate void SetControlPropertyThreadSafeDelegate(Control control, string propertyName, object propertyValue);
+
+        public static void SetControlPropertyThreadSafe(Control control, string propertyName, object propertyValue)
+        {
+            if (control.InvokeRequired)
+            {
+                control.Invoke(new SetControlPropertyThreadSafeDelegate(SetControlPropertyThreadSafe), new object[] { control, propertyName, propertyValue });
+            }
+            else
+            {
+                control.GetType().InvokeMember(propertyName, BindingFlags.SetProperty, null, control, new object[] { propertyValue });
+            }
+        }
+
         public Form1()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+            labelAsset.Text = Properties.Settings.Default.ITEM;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             CreateGraph(zgCall1);
             SetSize();
+            StartAssetDDE();
         }
 
         private void Form1_Resize(object sender, EventArgs e)
@@ -39,10 +60,10 @@ namespace IV
         {
             PointPairList list = new PointPairList();
             double x, y;
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 20; i++)
             {
-                x = 120 + i;
-                y = i + 1.0;
+                x = AssetValue + i;
+                y = 1;
                 list.Add(x, y);
             }
             return list;
@@ -68,9 +89,9 @@ namespace IV
 
             PointPairList list = makePoints();
 
-            // Generate a red curve with diamond
+            // Generate a curve with diamond
             LineItem myCurve = myPane.AddCurve("CALL",
-               list, Color.Green, SymbolType.Diamond);
+               list, Color.Blue, SymbolType.Diamond);
 
             // Set the Y axis intersect the X axis at an X value of 0.0
             myPane.YAxis.Cross = 0.0;
@@ -88,8 +109,8 @@ namespace IV
             // Manually set the axis range
             myPane.YAxis.Scale.Min = 0;
             myPane.YAxis.Scale.Max = 20;
-            myPane.XAxis.Scale.Min = 100;
-            myPane.XAxis.Scale.Max = 150;
+            myPane.XAxis.Scale.Min = AssetValue - 30;
+            myPane.XAxis.Scale.Max = AssetValue + 30;
 
             // Enable scrollbars if needed
             zgc.IsShowHScrollBar = true;
@@ -106,5 +127,46 @@ namespace IV
             // Make sure the Graph gets redrawn
             zgc.Invalidate();
         }
+
+        private void StartAssetDDE()
+        {
+            String _topic = "LAST";
+
+            try
+            {
+                // Create a client that connects to 'myapp|topic'. 
+                using (DdeClient client = new DdeClient(Properties.Settings.Default.APP, _topic))
+                {
+                    // Subscribe to the Disconnected event.  This event will notify the application when a conversation has been terminated.
+                    client.Disconnected += OnDisconnected;
+
+                    // Connect to the server.  It must be running or an exception will be thrown.
+                    client.Connect();
+
+                    // Advise Loop
+                    client.StartAdvise(Properties.Settings.Default.ITEM, 1, true, 60000);
+                    client.Advise += OnAdvise;
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Please run " + Properties.Settings.Default.APP + " and restart this application!");
+            }
+        }
+
+        private void OnAdvise(object sender, DdeAdviseEventArgs args)
+        {
+            Double tmp = Convert.ToDouble(args.Text.Trim());
+            AssetValue = Convert.ToInt32(tmp);
+            String value = Convert.ToString(tmp);
+
+            if (this.Visible)
+                SetControlPropertyThreadSafe(label1, "Text", value);
+        }
+
+        private void OnDisconnected(object sender, DdeDisconnectedEventArgs args)
+        {
+        }
+
     }
 }

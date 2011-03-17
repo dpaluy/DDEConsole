@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDEConsole", "DDEConsole\DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IV", "IV\IV.csproj", "{98AEA11D-46BC-40C7-9BC0-62C286AB94A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle", "Oracle\Oracle.csproj", "{8485930B-9A1D-4BC8-980B-50D2190E0CD1}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -23,6 +25,10 @@ Global
 		{98AEA11D-46BC-40C7-9BC0-62C286AB94A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98AEA11D-46BC-40C7-9BC0-62C286AB94A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98AEA11D-46BC-40C7-9BC0-62C286AB94A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8485930B-9A1D-4BC8-980B-50D2190E0CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8485930B-9A1D-4BC8-980B-50D2190E0CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8485930B-9A1D-4BC8-980B-50D2190E0CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8485930B-9A1D-4BC8-980B-50D2190E0CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
