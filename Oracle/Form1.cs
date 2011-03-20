@@ -21,12 +21,11 @@ namespace Oracle
         {            
             DateTime exp = new DateTime(2011, 3, 19);
             DateTime today = DateTime.Now;
-            decimal cost = 1m;
-            Option o1 = new Option(OptionTypes.CALL, 31, exp, cost, 1 );
-            Option o2 = new Option(OptionTypes.PUT, 31, exp, cost, 1);
+            Option o1 = new Option(OptionTypes.CALL, 31, exp, 0.54 );
+            Option o2 = new Option(OptionTypes.PUT, 31, exp, 0.54);
 
-            o1.SetCurrentData(32.9, today, 0.025, 0.54);
-            o2.SetCurrentData(32.9, today, 0.025, 0.54);
+            o1.SetCurrentData(32.9, today, 0.025);
+            o2.SetCurrentData(32.9, today, 0.025);
 
             label1.Text = o1.ToString();
             label10.Text = o2.ToString();
@@ -46,6 +45,9 @@ namespace Oracle
             label5.Text = Convert.ToString(o1.Theta);
             label6.Text = Convert.ToString(o2.Theta);
             label11.Text = "Theta";
+
+            label15.Text = Convert.ToString(o1.BS);
+            label16.Text = Convert.ToString(o2.BS);
         }
     }
 }

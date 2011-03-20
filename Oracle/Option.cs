@@ -8,27 +8,36 @@ namespace Oracle
 {
     public enum OptionTypes { CALL, PUT };
 
+
     class Option
     {
         #region Property
         public DateTime Expiration { get; set; }
         public ushort StrikePrice { get; set; }
-        public decimal Cost { get; set; }
         public OptionTypes OpType { get; set; }
-        public int Quantity { get; set; }
+        public bool IsCall
+        {
+            get
+            {
+                return (OpType == OptionTypes.CALL);
+            }
+        }
+        /// <summary>
+        /// Refers to the standard deviation of the continuously compounded returns of a financial instrument within a specific time horizon.
+        /// It is used to quantify the risk of the financial instrument over the specified time period.
+        /// Implied Volatility -- the volatility of the option implied by current market prices.
+        /// <b>NOTE</b> Volatility however cannot be directly observed and must be estimated.
+        /// </summary>
+        public double Volatility { get; set; }
         #endregion
 
         #region Constructor
-        public Option(OptionTypes _type, ushort _strike, DateTime _exp, decimal _cost, int quantity_)
+        public Option(OptionTypes _type, ushort _strike, DateTime _exp, double _vol)
         {
             OpType = _type;
             StrikePrice = _strike;
             Expiration = _exp;
-            Cost = _cost;
-            Quantity = quantity_;
-
-            // Set Defaults
-            Volatility = 0.1;
+            Volatility = _vol;
         }
         #endregion
 
@@ -37,18 +46,17 @@ namespace Oracle
         {
             // C1250MAY10
             String result;
-            result = OpType.ToString().Substring(0, 1) + StrikePrice.ToString() + Expiration.ToString("MMMyy", CultureInfo.InvariantCulture) + "  " + Quantity.ToString();
+            result = OpType.ToString().Substring(0, 1) + StrikePrice.ToString() + Expiration.ToString("MMMyy", CultureInfo.InvariantCulture);
             return result;
         }
         #endregion
 
         #region Current Data
-        public void SetCurrentData(double _stockPrice, DateTime date_, double rate_, double v_)
+        public void SetCurrentData(double _stockPrice, DateTime date_, double rate_)
         {
             CurrentStockPrice = _stockPrice;
             CurrentDate = date_;
             RiskFreeRate = rate_;
-            Volatility = v_;
         }
         public double CurrentStockPrice{ private get; set; }
         private DateTime currentDate_;
@@ -66,17 +74,26 @@ namespace Oracle
             }
         }
         public double RiskFreeRate { private get; set; }
-        /// <summary>
-        /// Refers to the standard deviation of the continuously compounded returns of a financial instrument within a specific time horizon.
-        /// It is used to quantify the risk of the financial instrument over the specified time period.
-        /// Implied Volatility -- the volatility of the option implied by current market prices.
-        /// <b>NOTE</b> Volatility however cannot be directly observed and must be estimated.
-        /// </summary>
-        public double Volatility { get; set; }
 
         public ushort DaysTillExpiration { get; private set; }
         public ushort TradeDays { get; private set; }
         
+        #endregion
+
+        #region Black-Scholes
+        public double BS
+        {
+            get
+            {
+                double result = CurrentStockPrice * NormDist1 - StrikePrice * NormDist2 * Math.Exp(-RiskFreeRate * T_Expiration);
+                if (OpType == OptionTypes.PUT)
+                {
+                    result -= CurrentStockPrice;
+                    result += StrikePrice * Math.Exp(-RiskFreeRate * T_Expiration);
+                }
+                return result;
+            }
+        }
         #endregion
 
         #region Greeks
