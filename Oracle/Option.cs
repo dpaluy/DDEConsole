@@ -12,7 +12,7 @@ namespace Oracle
     {
         #region Property
         public DateTime Expiration { get; set; }
-        public ushort ExercisePrice { get; set; }
+        public ushort ReferencePrice { get; set; }
         public decimal Cost { get; set; }
         public OptionTypes OpType { get; set; }
         public int Quantity { get; set; }
@@ -22,20 +22,20 @@ namespace Oracle
         /// Implied Volatility -- the volatility of the option implied by current market prices.
         /// <b>NOTE</b> Volatility however cannot be directly observed and must be estimated.
         /// </summary>
-        public decimal Volatility { get; set; }
+        public double Volatility { get; set; }
         #endregion
 
         #region Constructor
         public Option(OptionTypes _type, ushort _strike, DateTime _exp, decimal _cost)
         {
             OpType = _type;
-            ExercisePrice = _strike;
+            ReferencePrice = _strike;
             Expiration = _exp;
             Cost = _cost;
 
             // Set Defaults
             Quantity = 0;
-            Volatility = 0.1m;
+            Volatility = 0.1;
         }
         #endregion
 
@@ -44,19 +44,19 @@ namespace Oracle
         {
             // C1250MAY10
             String result;
-            result = OpType.ToString().Substring(0, 1) +Strike.ToString() + Expiration.ToString("MMMyy", CultureInfo.InvariantCulture) + "  " + Quantity.ToString();
+            result = OpType.ToString().Substring(0, 1) + ReferencePrice.ToString() + Expiration.ToString("MMMyy", CultureInfo.InvariantCulture) + "  " + Quantity.ToString();
             return result;
         }
         #endregion
 
         #region Current Data
         public decimal CurrentStockPrice{ private get; set; }
-        public decimal Rate { private get; set; }
+        public double Rate { private get; set; }
         public ushort DaysTillExpiration { get; private set; }
         public ushort WorkingDaysTillExpiration { get; private set; }
         public DateTime CurrentDate { get; set; }
         #endregion
-/*
+
         #region Greeks
         /// <summary>
         /// The degree to which an option price will move given a small change in the underlying stock price.
@@ -64,7 +64,10 @@ namespace Oracle
         /// </summary>
         public decimal Delta 
         {
-            get; 
+            get
+            {
+                return (OpType == OptionTypes.CALL) ? Statistics.NORMSDIST(Arg1) : (Statistics.NORMSDIST(Arg1) - 1);
+            }
         }
         /// <summary>
         /// It measures how fast the delta changes for small changes in the underlying stock price.
@@ -86,23 +89,79 @@ namespace Oracle
         /// </summary>
         public decimal Vega
         {
-            get;
+            // =s*SQRT((t/365))*nd11*vdif
+            get
+            {
+                return ;
+            }
         }
         #endregion
-*/
+
 
         #region Greeks Tools
-        //=(LN(s/e)+(rate+v*v*0.5)*(C3/250))/(v*SQRT((C3/250)))
-        public double Arg1
+        private double WorkingDaysRange
         {
             get
             {
-                int exercisePrice = Convert.ToInt32(CurrentStockPrice);
-                double a = Math.Log(CurrentStockPrice / exercisePrice);
-                return 0;
+                return (WorkingDaysTillExpiration / WorkingDaysRange);
+            }
+        }
+        private double VolatilityWorkingDays
+        {
+            get
+            {
+                return Volatility * Math.Sqrt(WorkingDaysRange); ;
             }
         }
 
+		/*
+		S= Stock price
+
+X=Strike price
+
+T=Years to maturity
+
+r= Risk-free rate
+
+v=Volatility
+		*/
+        private double Arg1
+        {
+		// 250 Working days inn a year
+		
+            get
+            {
+                int exercisePrice = Convert.ToInt32(CurrentStockPrice);
+                double a = Math.Log(ReferencePrice / exercisePrice) + WorkingDaysRange * (Rate + Volatility * Volatility * 0.5);
+
+                double result = a / VolatilityWorkingDays;
+                return result;
+            }
+        }
+
+        private double Arg2
+        {
+            get
+            {
+                return Arg1 - VolatilityWorkingDays;
+            }
+        }
+
+        private double NormDist2
+        {
+            get
+            {
+                return Statistics.NORMSDIST(Arg2);
+            }
+        }
+
+        private double NormDist1tag
+        {
+            get
+            {
+                return Math.Exp(-Arg1*Arg1*0.5)/Math.Sqrt(2*Math.PI);
+            }
+        }
         #endregion
 
     }

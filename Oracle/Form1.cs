@@ -19,10 +19,12 @@ namespace Oracle
 
         void OptionTest()
         {
+            /*
             DateTime exp = new DateTime(2011, 3, 19);
             decimal cost = 1m;
             Option o1 = new Option(OptionTypes.PUT, 120, exp, cost );
-            label1.Text = o1.ToString();
+            */
+            label1.Text = Convert.ToString(Option.NormDist2(0.387215742739698)); //o1.ToString();
         }
     }
 }
