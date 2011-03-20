@@ -44,22 +44,22 @@ namespace Oracle
         #endregion
 
         #region Value Calculation
-        public decimal ValueOnExpirationAtStockPrice(double _stockPrice)
+        public decimal ValueOnExpirationAtStockPrice()
         {
             decimal result = 0m;
             if (IsBuy)
             {
                 if (IsCall)
-                    result = (this.CurrentStockPrice > this.StrikePrice) ? (PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
+                    result = (CurrentStockPrice > StrikePrice) ? (PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
                 else
-                    result = (this.StrikePrice > this.CurrentStockPrice) ? (PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
+                    result = (StrikePrice > CurrentStockPrice) ? (PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
             }
-            else
+            else // SELL
             {
                 if (IsCall)
-                    result = (this.CurrentStockPrice > this.StrikePrice) ? (-PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
+                    result = (CurrentStockPrice > StrikePrice) ? (-PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
                 else
-                    result = (this.StrikePrice > this.CurrentStockPrice) ? (-PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
+                    result = (StrikePrice > CurrentStockPrice) ? (-PremiaOnExpiration - PremiaOnPurchase) : -PremiaOnPurchase;
             }
 
             return result;
@@ -69,7 +69,7 @@ namespace Oracle
         {
             get
             {
-                return Math.Abs(Quantity) * 100 * Math.Abs((short)(this.StrikePrice - this.CurrentStockPrice));
+                return Math.Abs(Quantity) * 100 * Math.Abs((short)(this.StrikePrice - CurrentStockPrice));
             }
         }
 

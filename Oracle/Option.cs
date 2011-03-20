@@ -58,7 +58,7 @@ namespace Oracle
             CurrentDate = date_;
             RiskFreeRate = rate_;
         }
-        public double CurrentStockPrice{ private get; set; }
+        public double CurrentStockPrice{ get; set; }
         private DateTime currentDate_;
         public DateTime CurrentDate 
         {
@@ -73,7 +73,7 @@ namespace Oracle
                 TradeDays = 150;
             }
         }
-        public double RiskFreeRate { private get; set; }
+        public double RiskFreeRate { get; set; }
 
         public ushort DaysTillExpiration { get; private set; }
         public ushort TradeDays { get; private set; }
