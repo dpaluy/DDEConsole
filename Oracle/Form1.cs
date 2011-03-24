@@ -11,7 +11,8 @@ using ZedGraph;
 namespace Oracle
 {
     public partial class Form1 : Form
-    {      
+    {
+        #region Form
         public Form1()
         {
             InitializeComponent();
@@ -28,14 +29,6 @@ namespace Oracle
             SetSize();
         }
 
-        private void SetSize()
-        {
-            zedGraphControl1.Location = new Point(10, 10);
-            // Leave a small margin around the outside of the control
-            zedGraphControl1.Size = new Size(ClientRectangle.Width - 20,
-                                    ClientRectangle.Height - 20);
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             // Setup the graph
@@ -43,7 +36,16 @@ namespace Oracle
             // Size the control to fill the form with a margin
             SetSize();
         }
+        #endregion 
 
+        #region Graph
+        private void SetSize()
+        {
+            zedGraphControl1.Location = new Point(10, 10);
+            // Leave a small margin around the outside of the control
+            zedGraphControl1.Size = new Size(ClientRectangle.Width - 20,
+                                    ClientRectangle.Height - 20);
+        }
         private void CreateGraph(ZedGraphControl zgc)
         {
             // get a reference to the GraphPane
@@ -83,6 +85,38 @@ namespace Oracle
             // Tell ZedGraph to refigure the axes since the data have changed
             zgc.AxisChange();
         }
-     
+        #endregion
+
+        #region Menu Events
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String filename = "";
+            if (openFilePosition.ShowDialog() == DialogResult.OK)
+            {
+                filename = openFilePosition.FileName;
+                LoadData(filename);
+            }
+        }
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String filename = "";
+            if (saveFilePosition.ShowDialog() == DialogResult.OK)
+            {
+                filename = saveFilePosition.FileName;
+                SaveData(filename);
+            }
+        }
+        #endregion
+
+        #region DataSet
+        private void SaveData(String filename)
+        {
+            dataSetPosition.WriteXml(filename);
+        }
+        private void LoadData(String filename)
+        {
+            dataSetPosition.ReadXml(filename);
+        }
+        #endregion
     }
 }

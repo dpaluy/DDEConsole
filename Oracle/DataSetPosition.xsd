@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetPosition" targetNamespace="http://tempuri.org/DataSetPosition.xsd" xmlns:mstns="http://tempuri.org/DataSetPosition.xsd" xmlns="http://tempuri.org/DataSetPosition.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetPosition" msdata:IsDataSet="true" msdata:Locale="en" msprop:Generator_UserDSName="DataSetPosition" msprop:Generator_DataSetName="DataSetPosition" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Order" msprop:Generator_UserTableName="Order" msprop:Generator_RowDeletedName="OrderRowDeleted" msprop:Generator_RowChangedName="OrderRowChanged" msprop:Generator_RowClassName="OrderRow" msprop:Generator_RowChangingName="OrderRowChanging" msprop:Generator_RowEvArgName="OrderRowChangeEvent" msprop:Generator_RowEvHandlerName="OrderRowChangeEventHandler" msprop:Generator_TableClassName="OrderDataTable" msprop:Generator_TableVarName="tableOrder" msprop:Generator_RowDeletingName="OrderRowDeleting" msprop:Generator_TablePropName="Order">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Side" msprop:Generator_UserColumnName="Side" msprop:Generator_ColumnPropNameInRow="Side" msprop:Generator_ColumnVarNameInTable="columnSide" msprop:Generator_ColumnPropNameInTable="SideColumn" type="xs:string" />
+              <xs:element name="Qty" msprop:Generator_UserColumnName="Qty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInTable="QtyColumn" type="xs:int" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" />
+              <xs:element name="ExpDate" msprop:Generator_UserColumnName="ExpDate" msprop:Generator_ColumnPropNameInRow="ExpDate" msprop:Generator_ColumnVarNameInTable="columnExpDate" msprop:Generator_ColumnPropNameInTable="ExpDateColumn" type="xs:dateTime" />
+              <xs:element name="Strike" msprop:Generator_UserColumnName="Strike" msprop:Generator_ColumnPropNameInRow="Strike" msprop:Generator_ColumnVarNameInTable="columnStrike" msprop:Generator_ColumnPropNameInTable="StrikeColumn" type="xs:unsignedShort" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" />
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInTable="PriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Vol" msprop:Generator_UserColumnName="Vol" msprop:Generator_ColumnPropNameInRow="Vol" msprop:Generator_ColumnVarNameInTable="columnVol" msprop:Generator_ColumnPropNameInTable="VolColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Position" msprop:Generator_UserTableName="Position" msprop:Generator_RowDeletedName="PositionRowDeleted" msprop:Generator_RowChangedName="PositionRowChanged" msprop:Generator_RowClassName="PositionRow" msprop:Generator_RowChangingName="PositionRowChanging" msprop:Generator_RowEvArgName="PositionRowChangeEvent" msprop:Generator_RowEvHandlerName="PositionRowChangeEventHandler" msprop:Generator_TableClassName="PositionDataTable" msprop:Generator_TableVarName="tablePosition" msprop:Generator_RowDeletingName="PositionRowDeleting" msprop:Generator_TablePropName="Position">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedAt" msprop:Generator_UserColumnName="CreatedAt" msprop:Generator_ColumnPropNameInRow="CreatedAt" msprop:Generator_ColumnVarNameInTable="columnCreatedAt" msprop:Generator_ColumnPropNameInTable="CreatedAtColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdatedAt" msprop:Generator_UserColumnName="UpdatedAt" msprop:Generator_ColumnPropNameInRow="UpdatedAt" msprop:Generator_ColumnVarNameInTable="columnUpdatedAt" msprop:Generator_ColumnPropNameInTable="UpdatedAtColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Executed" msprop:Generator_UserColumnName="Executed" msprop:Generator_ColumnPropNameInRow="Executed" msprop:Generator_ColumnVarNameInTable="columnExecuted" msprop:Generator_ColumnPropNameInTable="ExecutedColumn" type="xs:boolean" default="true" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Order" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Position_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Position" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Position_Order" msdata:parent="Position" msdata:child="Order" msdata:parentkey="ID" msdata:childkey="ID" msprop:Generator_UserRelationName="Position_Order" msprop:Generator_RelationVarName="relationPosition_Order" msprop:Generator_UserChildTable="Order" msprop:Generator_UserParentTable="Position" msprop:Generator_ParentPropName="PositionRow" msprop:Generator_ChildPropName="GetOrderRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
