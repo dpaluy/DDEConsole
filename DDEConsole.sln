@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle", "Oracle\Oracle.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRate", "WeightedRate\WeightedRate.csproj", "{67164143-9E8F-4A34-B773-D3F720E24B95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectData", "CollectData\CollectData.csproj", "{E300E25B-D691-40F9-BB09-971B3ED7D8E7}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -35,6 +37,10 @@ Global
 		{67164143-9E8F-4A34-B773-D3F720E24B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67164143-9E8F-4A34-B773-D3F720E24B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67164143-9E8F-4A34-B773-D3F720E24B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E300E25B-D691-40F9-BB09-971B3ED7D8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E300E25B-D691-40F9-BB09-971B3ED7D8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E300E25B-D691-40F9-BB09-971B3ED7D8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E300E25B-D691-40F9-BB09-971B3ED7D8E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
