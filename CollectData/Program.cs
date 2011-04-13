@@ -5,42 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using NDde.Client;
+using System.Xml;
+using System.Globalization;
 
 namespace CollectData
 {     
     class Program
     {
-        enum OPTIONS // APRIL
-        {
-            C1160 = 80701311, P1160 = 80701576,
-            C1170 = 80709819, P1170 = 80710064,
-            C1180 = 80701303, P1180 = 80701568,
-            C1190 = 80709801, P1190 = 80710056,
-            
-            C1200 = 80701295, P1200 = 80701550,
-            C1210 = 80709793, P1210 = 80710049,
-            C1220 = 80701287, P1220 = 80701543,
-            C1230 = 80709785, P1230 = 80710031,
-            C1240 = 80701279, P1240 = 80701535,
-            C1250 = 80709777, P1250 = 80710023,
-            C1260 = 80701261, P1260 = 80701527,
-            C1270 = 80709892, P1270 = 80710148,
-            C1280 = 80701253, P1280 = 80701519,
-            C1290 = 80709900, P1290 = 80710155,
-            
-            C1300 = 80701246, P1300 = 80701501,
-            C1310 = 80709918, P1310 = 80710163,
-            C1320 = 80701238, P1320 = 80701493,
-            C1330 = 80709926, P1330 = 80710171,
-            C1340 = 80701360, P1340 = 80701626,
-            C1350 = 80709934, P1350 = 80710189,
-            C1360 = 80701378, P1360 = 80701634,
-            C1370 = 80709942, P1370 = 80710197,
-            C1380 = 80701386, P1380 = 80701642,
-            C1390 = 80709959, P1390 = 80710205,
-            C1400 = 80701394, P1400 = 80701659
-        };
-
         enum DDE_VALUES { 
             TSHR, SFUT, SINT, IVVL, OPOS, POSP, AVRP, DTMR, DVOL, BLI1, BL1A, SLI1, SL1A, DLTA};
 
@@ -48,8 +19,53 @@ namespace CollectData
 
         static void Main(string[] args)
         {
+            XmlDocument xml = new XmlDocument();
+            try
+            {
+                xml.Load(@"tase.xml");
+            }
+            catch (Exception )
+            {
+                Console.WriteLine("File dde.xml was not found in current folder!");
+                Console.WriteLine("Press ENTER to quit...");
+                Console.ReadLine();
+                return;
+            }
+
+            Dictionary<string, string> myDict = new Dictionary<string, string>();
+            XmlNodeList nodeList;
+            XmlElement root = xml.DocumentElement;
+            nodeList = root.SelectNodes("/tase/option");
+            foreach (XmlNode option in nodeList)
+            {
+                XmlNodeList optionsData = option.ChildNodes;
+                string opname = "";
+                string id = "";
+                string exp = "";
+                foreach (XmlNode op in optionsData)
+                {
+                    if (op.Name == "name")
+                    {
+                        opname = op.InnerText.Substring(0, 6);
+                    }
+                    else if (op.Name == "id")
+                    {
+                        id = op.InnerText;
+                    }
+                    else if (op.Name == "expiration")
+                    {
+                        DateTime dt = DateTime.ParseExact(op.InnerText, "dd/MM/yyyy",
+                                   CultureInfo.InvariantCulture);
+                        exp = dt.Month.ToString();
+                    }
+                }
+                //Console.Write("{0} {1}\n", opname+"_"+exp, id);
+                myDict.Add(opname + "_" + exp, id);
+            }
+
             // create a writer and open the file
-            tw = new StreamWriter("data.txt");
+            string filename = "data" + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + ".txt";
+            tw = new StreamWriter(filename);
 
             tw.WriteLine("DDE BIZPORTAL {0:MM/dd/yy}", DateTime.Now);
             string _myapp = "Star32";
@@ -67,11 +83,11 @@ namespace CollectData
                     client.Connect();
 
                     // Advise Loop
-                    foreach (int val in Enum.GetValues(typeof(OPTIONS)))
+                    foreach (KeyValuePair<string, string> pair in myDict)
                     {
                         foreach(string name in Enum.GetNames(typeof(DDE_VALUES)))
                         {
-                            string advice = name + val.ToString();
+                            string advice = name + pair.Value;
                             client.StartAdvise(advice, 1, true, 60000);
                         }
                     }
