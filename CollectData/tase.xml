@@ -1,996 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<option>
-		<name>C00001-ת25-אפר1</name>
-		<id>80701196</id>
-		<leverage>100</leverage>
-		<exercise_price>1</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>C01000-ת25-אפר1</name>
-		<id>80710544</id>
-		<leverage>100</leverage>
-		<exercise_price>1000</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01000-ת25-אפר1</name>
-		<id>80710577</id>
-		<leverage>100</leverage>
-		<exercise_price>1000</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01010-ת25-אפר1</name>
-		<id>80710429</id>
-		<leverage>100</leverage>
-		<exercise_price>1010</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01010-ת25-אפר1</name>
-		<id>80710445</id>
-		<leverage>100</leverage>
-		<exercise_price>1010</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01020-ת25-אפר1</name>
-		<id>80709322</id>
-		<leverage>100</leverage>
-		<exercise_price>1020</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01020-ת25-אפר1</name>
-		<id>80709355</id>
-		<leverage>100</leverage>
-		<exercise_price>1020</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01030-ת25-אפר1</name>
-		<id>80709884</id>
-		<leverage>100</leverage>
-		<exercise_price>1030</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01030-ת25-אפר1</name>
-		<id>80710130</id>
-		<leverage>100</leverage>
-		<exercise_price>1030</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01040-ת25-אפר1</name>
-		<id>80704018</id>
-		<leverage>100</leverage>
-		<exercise_price>1040</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01040-ת25-אפר1</name>
-		<id>80704323</id>
-		<leverage>100</leverage>
-		<exercise_price>1040</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01050-ת25-אפר1</name>
-		<id>80709876</id>
-		<leverage>100</leverage>
-		<exercise_price>1050</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01050-ת25-אפר1</name>
-		<id>80710122</id>
-		<leverage>100</leverage>
-		<exercise_price>1050</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01060-ת25-אפר1</name>
-		<id>80704000</id>
-		<leverage>100</leverage>
-		<exercise_price>1060</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01060-ת25-אפר1</name>
-		<id>80704315</id>
-		<leverage>100</leverage>
-		<exercise_price>1060</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01070-ת25-אפר1</name>
-		<id>80709868</id>
-		<leverage>100</leverage>
-		<exercise_price>1070</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01070-ת25-אפר1</name>
-		<id>80710114</id>
-		<leverage>100</leverage>
-		<exercise_price>1070</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01080-ת25-אפר1</name>
-		<id>80701352</id>
-		<leverage>100</leverage>
-		<exercise_price>1080</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01080-ת25-אפר1</name>
-		<id>80701618</id>
-		<leverage>100</leverage>
-		<exercise_price>1080</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01090-ת25-אפר1</name>
-		<id>80709850</id>
-		<leverage>100</leverage>
-		<exercise_price>1090</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01090-ת25-אפר1</name>
-		<id>80710106</id>
-		<leverage>100</leverage>
-		<exercise_price>1090</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01100-ת25-אפר1</name>
-		<id>80701345</id>
-		<leverage>100</leverage>
-		<exercise_price>1100</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01100-ת25-אפר1</name>
-		<id>80701600</id>
-		<leverage>100</leverage>
-		<exercise_price>1100</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01110-ת25-אפר1</name>
-		<id>80709843</id>
-		<leverage>100</leverage>
-		<exercise_price>1110</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01110-ת25-אפר1</name>
-		<id>80710098</id>
-		<leverage>100</leverage>
-		<exercise_price>1110</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01120-ת25-אפר1</name>
-		<id>80701337</id>
-		<leverage>100</leverage>
-		<exercise_price>1120</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01120-ת25-אפר1</name>
-		<id>80701592</id>
-		<leverage>100</leverage>
-		<exercise_price>1120</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01130-ת25-אפר1</name>
-		<id>80709835</id>
-		<leverage>100</leverage>
-		<exercise_price>1130</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01130-ת25-אפר1</name>
-		<id>80710080</id>
-		<leverage>100</leverage>
-		<exercise_price>1130</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01140-ת25-אפר1</name>
-		<id>80701329</id>
-		<leverage>100</leverage>
-		<exercise_price>1140</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01140-ת25-אפר1</name>
-		<id>80701584</id>
-		<leverage>100</leverage>
-		<exercise_price>1140</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01150-ת25-אפר1</name>
-		<id>80709827</id>
-		<leverage>100</leverage>
-		<exercise_price>1150</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01150-ת25-אפר1</name>
-		<id>80710072</id>
-		<leverage>100</leverage>
-		<exercise_price>1150</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01160-ת25-אפר1</name>
-		<id>80701311</id>
-		<leverage>100</leverage>
-		<exercise_price>1160</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01160-ת25-אפר1</name>
-		<id>80701576</id>
-		<leverage>100</leverage>
-		<exercise_price>1160</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01170-ת25-אפר1</name>
-		<id>80709819</id>
-		<leverage>100</leverage>
-		<exercise_price>1170</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01170-ת25-אפר1</name>
-		<id>80710064</id>
-		<leverage>100</leverage>
-		<exercise_price>1170</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01180-ת25-אפר1</name>
-		<id>80701303</id>
-		<leverage>100</leverage>
-		<exercise_price>1180</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01180-ת25-אפר1</name>
-		<id>80701568</id>
-		<leverage>100</leverage>
-		<exercise_price>1180</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01190-ת25-אפר1</name>
-		<id>80709801</id>
-		<leverage>100</leverage>
-		<exercise_price>1190</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>100</delta>
-	</option>
-	<option>
-		<name>P01190-ת25-אפר1</name>
-		<id>80710056</id>
-		<leverage>100</leverage>
-		<exercise_price>1190</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>C01200-ת25-אפר1</name>
-		<id>80701295</id>
-		<leverage>100</leverage>
-		<exercise_price>1200</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>99.99</delta>
-	</option>
-	<option>
-		<name>P01200-ת25-אפר1</name>
-		<id>80701550</id>
-		<leverage>100</leverage>
-		<exercise_price>1200</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-0.01</delta>
-	</option>
-	<option>
-		<name>C01210-ת25-אפר1</name>
-		<id>80709793</id>
-		<leverage>100</leverage>
-		<exercise_price>1210</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>99.98</delta>
-	</option>
-	<option>
-		<name>P01210-ת25-אפר1</name>
-		<id>80710049</id>
-		<leverage>100</leverage>
-		<exercise_price>1210</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-0.02</delta>
-	</option>
-	<option>
-		<name>C01220-ת25-אפר1</name>
-		<id>80701287</id>
-		<leverage>100</leverage>
-		<exercise_price>1220</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>99.93</delta>
-	</option>
-	<option>
-		<name>P01220-ת25-אפר1</name>
-		<id>80701543</id>
-		<leverage>100</leverage>
-		<exercise_price>1220</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-0.07</delta>
-	</option>
-	<option>
-		<name>C01230-ת25-אפר1</name>
-		<id>80709785</id>
-		<leverage>100</leverage>
-		<exercise_price>1230</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>99.82</delta>
-	</option>
-	<option>
-		<name>P01230-ת25-אפר1</name>
-		<id>80710031</id>
-		<leverage>100</leverage>
-		<exercise_price>1230</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-0.18</delta>
-	</option>
-	<option>
-		<name>C01240-ת25-אפר1</name>
-		<id>80701279</id>
-		<leverage>100</leverage>
-		<exercise_price>1240</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>99.56</delta>
-	</option>
-	<option>
-		<name>P01240-ת25-אפר1</name>
-		<id>80701535</id>
-		<leverage>100</leverage>
-		<exercise_price>1240</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-0.44</delta>
-	</option>
-	<option>
-		<name>C01250-ת25-אפר1</name>
-		<id>80709777</id>
-		<leverage>100</leverage>
-		<exercise_price>1250</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>99.03</delta>
-	</option>
-	<option>
-		<name>P01250-ת25-אפר1</name>
-		<id>80710023</id>
-		<leverage>100</leverage>
-		<exercise_price>1250</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-0.97</delta>
-	</option>
-	<option>
-		<name>C01260-ת25-אפר1</name>
-		<id>80701261</id>
-		<leverage>100</leverage>
-		<exercise_price>1260</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>97.99</delta>
-	</option>
-	<option>
-		<name>P01260-ת25-אפר1</name>
-		<id>80701527</id>
-		<leverage>100</leverage>
-		<exercise_price>1260</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-2.01</delta>
-	</option>
-	<option>
-		<name>C01270-ת25-אפר1</name>
-		<id>80709892</id>
-		<leverage>100</leverage>
-		<exercise_price>1270</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>96.17</delta>
-	</option>
-	<option>
-		<name>P01270-ת25-אפר1</name>
-		<id>80710148</id>
-		<leverage>100</leverage>
-		<exercise_price>1270</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-3.83</delta>
-	</option>
-	<option>
-		<name>C01280-ת25-אפר1</name>
-		<id>80701253</id>
-		<leverage>100</leverage>
-		<exercise_price>1280</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>93.2</delta>
-	</option>
-	<option>
-		<name>P01280-ת25-אפר1</name>
-		<id>80701519</id>
-		<leverage>100</leverage>
-		<exercise_price>1280</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-6.8</delta>
-	</option>
-	<option>
-		<name>C01290-ת25-אפר1</name>
-		<id>80709900</id>
-		<leverage>100</leverage>
-		<exercise_price>1290</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>88.76</delta>
-	</option>
-	<option>
-		<name>P01290-ת25-אפר1</name>
-		<id>80710155</id>
-		<leverage>100</leverage>
-		<exercise_price>1290</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-11.24</delta>
-	</option>
-	<option>
-		<name>C01300-ת25-אפר1</name>
-		<id>80701246</id>
-		<leverage>100</leverage>
-		<exercise_price>1300</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>82.6</delta>
-	</option>
-	<option>
-		<name>P01300-ת25-אפר1</name>
-		<id>80701501</id>
-		<leverage>100</leverage>
-		<exercise_price>1300</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-17.4</delta>
-	</option>
-	<option>
-		<name>C01310-ת25-אפר1</name>
-		<id>80709918</id>
-		<leverage>100</leverage>
-		<exercise_price>1310</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>74.71</delta>
-	</option>
-	<option>
-		<name>P01310-ת25-אפר1</name>
-		<id>80710163</id>
-		<leverage>100</leverage>
-		<exercise_price>1310</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-25.29</delta>
-	</option>
-	<option>
-		<name>C01320-ת25-אפר1</name>
-		<id>80701238</id>
-		<leverage>100</leverage>
-		<exercise_price>1320</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>65.34</delta>
-	</option>
-	<option>
-		<name>P01320-ת25-אפר1</name>
-		<id>80701493</id>
-		<leverage>100</leverage>
-		<exercise_price>1320</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-34.66</delta>
-	</option>
-	<option>
-		<name>C01330-ת25-אפר1</name>
-		<id>80709926</id>
-		<leverage>100</leverage>
-		<exercise_price>1330</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>54.99</delta>
-	</option>
-	<option>
-		<name>P01330-ת25-אפר1</name>
-		<id>80710171</id>
-		<leverage>100</leverage>
-		<exercise_price>1330</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-45.01</delta>
-	</option>
-	<option>
-		<name>C01340-ת25-אפר1</name>
-		<id>80701360</id>
-		<leverage>100</leverage>
-		<exercise_price>1340</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>44.37</delta>
-	</option>
-	<option>
-		<name>P01340-ת25-אפר1</name>
-		<id>80701626</id>
-		<leverage>100</leverage>
-		<exercise_price>1340</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-55.63</delta>
-	</option>
-	<option>
-		<name>C01350-ת25-אפר1</name>
-		<id>80709934</id>
-		<leverage>100</leverage>
-		<exercise_price>1350</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>34.22</delta>
-	</option>
-	<option>
-		<name>P01350-ת25-אפר1</name>
-		<id>80710189</id>
-		<leverage>100</leverage>
-		<exercise_price>1350</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-65.78</delta>
-	</option>
-	<option>
-		<name>C01360-ת25-אפר1</name>
-		<id>80701378</id>
-		<leverage>100</leverage>
-		<exercise_price>1360</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>25.15</delta>
-	</option>
-	<option>
-		<name>P01360-ת25-אפר1</name>
-		<id>80701634</id>
-		<leverage>100</leverage>
-		<exercise_price>1360</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-74.85</delta>
-	</option>
-	<option>
-		<name>C01370-ת25-אפר1</name>
-		<id>80709942</id>
-		<leverage>100</leverage>
-		<exercise_price>1370</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>17.6</delta>
-	</option>
-	<option>
-		<name>P01370-ת25-אפר1</name>
-		<id>80710197</id>
-		<leverage>100</leverage>
-		<exercise_price>1370</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-82.4</delta>
-	</option>
-	<option>
-		<name>C01380-ת25-אפר1</name>
-		<id>80701386</id>
-		<leverage>100</leverage>
-		<exercise_price>1380</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>11.7</delta>
-	</option>
-	<option>
-		<name>P01380-ת25-אפר1</name>
-		<id>80701642</id>
-		<leverage>100</leverage>
-		<exercise_price>1380</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-88.3</delta>
-	</option>
-	<option>
-		<name>C01390-ת25-אפר1</name>
-		<id>80709959</id>
-		<leverage>100</leverage>
-		<exercise_price>1390</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>7.39</delta>
-	</option>
-	<option>
-		<name>P01390-ת25-אפר1</name>
-		<id>80710205</id>
-		<leverage>100</leverage>
-		<exercise_price>1390</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-92.61</delta>
-	</option>
-	<option>
-		<name>C01400-ת25-אפר1</name>
-		<id>80701394</id>
-		<leverage>100</leverage>
-		<exercise_price>1400</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>4.43</delta>
-	</option>
-	<option>
-		<name>P01400-ת25-אפר1</name>
-		<id>80701659</id>
-		<leverage>100</leverage>
-		<exercise_price>1400</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-95.57</delta>
-	</option>
-	<option>
-		<name>C01410-ת25-אפר1</name>
-		<id>80709967</id>
-		<leverage>100</leverage>
-		<exercise_price>1410</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>2.52</delta>
-	</option>
-	<option>
-		<name>P01410-ת25-אפר1</name>
-		<id>80710213</id>
-		<leverage>100</leverage>
-		<exercise_price>1410</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-97.48</delta>
-	</option>
-	<option>
-		<name>C01420-ת25-אפר1</name>
-		<id>80701402</id>
-		<leverage>100</leverage>
-		<exercise_price>1420</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>1.36</delta>
-	</option>
-	<option>
-		<name>P01420-ת25-אפר1</name>
-		<id>80701667</id>
-		<leverage>100</leverage>
-		<exercise_price>1420</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-98.64</delta>
-	</option>
-	<option>
-		<name>C01430-ת25-אפר1</name>
-		<id>80709975</id>
-		<leverage>100</leverage>
-		<exercise_price>1430</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0.7</delta>
-	</option>
-	<option>
-		<name>P01430-ת25-אפר1</name>
-		<id>80710221</id>
-		<leverage>100</leverage>
-		<exercise_price>1430</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-99.3</delta>
-	</option>
-	<option>
-		<name>C01440-ת25-אפר1</name>
-		<id>80701410</id>
-		<leverage>100</leverage>
-		<exercise_price>1440</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0.34</delta>
-	</option>
-	<option>
-		<name>P01440-ת25-אפר1</name>
-		<id>80701675</id>
-		<leverage>100</leverage>
-		<exercise_price>1440</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-99.66</delta>
-	</option>
-	<option>
-		<name>C01450-ת25-אפר1</name>
-		<id>80709983</id>
-		<leverage>100</leverage>
-		<exercise_price>1450</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0.16</delta>
-	</option>
-	<option>
-		<name>P01450-ת25-אפר1</name>
-		<id>80710239</id>
-		<leverage>100</leverage>
-		<exercise_price>1450</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-99.84</delta>
-	</option>
-	<option>
-		<name>C01460-ת25-אפר1</name>
-		<id>80701428</id>
-		<leverage>100</leverage>
-		<exercise_price>1460</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0.07</delta>
-	</option>
-	<option>
-		<name>P01460-ת25-אפר1</name>
-		<id>80701683</id>
-		<leverage>100</leverage>
-		<exercise_price>1460</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-99.93</delta>
-	</option>
-	<option>
-		<name>C01470-ת25-אפר1</name>
-		<id>80709991</id>
-		<leverage>100</leverage>
-		<exercise_price>1470</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0.03</delta>
-	</option>
-	<option>
-		<name>P01470-ת25-אפר1</name>
-		<id>80710247</id>
-		<leverage>100</leverage>
-		<exercise_price>1470</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-99.97</delta>
-	</option>
-	<option>
-		<name>C01480-ת25-אפר1</name>
-		<id>80701436</id>
-		<leverage>100</leverage>
-		<exercise_price>1480</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0.01</delta>
-	</option>
-	<option>
-		<name>P01480-ת25-אפר1</name>
-		<id>80701691</id>
-		<leverage>100</leverage>
-		<exercise_price>1480</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-99.99</delta>
-	</option>
-	<option>
-		<name>C01490-ת25-אפר1</name>
-		<id>80710007</id>
-		<leverage>100</leverage>
-		<exercise_price>1490</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01490-ת25-אפר1</name>
-		<id>80710254</id>
-		<leverage>100</leverage>
-		<exercise_price>1490</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01500-ת25-אפר1</name>
-		<id>80701444</id>
-		<leverage>100</leverage>
-		<exercise_price>1500</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01500-ת25-אפר1</name>
-		<id>80701709</id>
-		<leverage>100</leverage>
-		<exercise_price>1500</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01510-ת25-אפר1</name>
-		<id>80710015</id>
-		<leverage>100</leverage>
-		<exercise_price>1510</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01510-ת25-אפר1</name>
-		<id>80710262</id>
-		<leverage>100</leverage>
-		<exercise_price>1510</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01520-ת25-אפר1</name>
-		<id>80701451</id>
-		<leverage>100</leverage>
-		<exercise_price>1520</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01520-ת25-אפר1</name>
-		<id>80701717</id>
-		<leverage>100</leverage>
-		<exercise_price>1520</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01530-ת25-אפר1</name>
-		<id>80710338</id>
-		<leverage>100</leverage>
-		<exercise_price>1530</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01530-ת25-אפר1</name>
-		<id>80710346</id>
-		<leverage>100</leverage>
-		<exercise_price>1530</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01540-ת25-אפר1</name>
-		<id>80701469</id>
-		<leverage>100</leverage>
-		<exercise_price>1540</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01540-ת25-אפר1</name>
-		<id>80701725</id>
-		<leverage>100</leverage>
-		<exercise_price>1540</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01550-ת25-אפר1</name>
-		<id>80711815</id>
-		<leverage>100</leverage>
-		<exercise_price>1550</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01550-ת25-אפר1</name>
-		<id>80711823</id>
-		<leverage>100</leverage>
-		<exercise_price>1550</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01560-ת25-אפר1</name>
-		<id>80701477</id>
-		<leverage>100</leverage>
-		<exercise_price>1560</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01560-ת25-אפר1</name>
-		<id>80701733</id>
-		<leverage>100</leverage>
-		<exercise_price>1560</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01570-ת25-אפר1</name>
-		<id>80714579</id>
-		<leverage>100</leverage>
-		<exercise_price>1570</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01570-ת25-אפר1</name>
-		<id>80714587</id>
-		<leverage>100</leverage>
-		<exercise_price>1570</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01580-ת25-אפר1</name>
-		<id>80701485</id>
-		<leverage>100</leverage>
-		<exercise_price>1580</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01580-ת25-אפר1</name>
-		<id>80701741</id>
-		<leverage>100</leverage>
-		<exercise_price>1580</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01590-ת25-אפר1</name>
-		<id>80715659</id>
-		<leverage>100</leverage>
-		<exercise_price>1590</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01590-ת25-אפר1</name>
-		<id>80715931</id>
-		<leverage>100</leverage>
-		<exercise_price>1590</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
-		<name>C01600-ת25-אפר1</name>
-		<id>80706070</id>
-		<leverage>100</leverage>
-		<exercise_price>1600</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>0</delta>
-	</option>
-	<option>
-		<name>P01600-ת25-אפר1</name>
-		<id>80706096</id>
-		<leverage>100</leverage>
-		<exercise_price>1600</exercise_price>
-		<expiration>29/04/2011</expiration>
-		<delta>-100</delta>
-	</option>
-	<option>
 		<name>C00001-ת25-מאי1</name>
 		<id>80706856</id>
 		<leverage>100</leverage>
 		<exercise_price>1</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>C01000-ת25-מאי1</name>
@@ -998,7 +13,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1000</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01000-ת25-מאי1</name>
@@ -1006,7 +20,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1000</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01020-ת25-מאי1</name>
@@ -1014,7 +27,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1020</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01020-ת25-מאי1</name>
@@ -1022,7 +34,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1020</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01040-ת25-מאי1</name>
@@ -1030,7 +41,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1040</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01040-ת25-מאי1</name>
@@ -1038,7 +48,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1040</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01060-ת25-מאי1</name>
@@ -1046,7 +55,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1060</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01060-ת25-מאי1</name>
@@ -1054,7 +62,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1060</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01070-ת25-מאי1</name>
@@ -1062,7 +69,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1070</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01070-ת25-מאי1</name>
@@ -1070,7 +76,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1070</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01080-ת25-מאי1</name>
@@ -1078,7 +83,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1080</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01080-ת25-מאי1</name>
@@ -1086,7 +90,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1080</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01090-ת25-מאי1</name>
@@ -1094,7 +97,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1090</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01090-ת25-מאי1</name>
@@ -1102,7 +104,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1090</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01100-ת25-מאי1</name>
@@ -1110,7 +111,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1100</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01100-ת25-מאי1</name>
@@ -1118,7 +118,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1100</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01110-ת25-מאי1</name>
@@ -1126,7 +125,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1110</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01110-ת25-מאי1</name>
@@ -1134,7 +132,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1110</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01120-ת25-מאי1</name>
@@ -1142,7 +139,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1120</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01120-ת25-מאי1</name>
@@ -1150,7 +146,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1120</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01130-ת25-מאי1</name>
@@ -1158,7 +153,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1130</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.99</delta>
 	</option>
 	<option>
 		<name>P01130-ת25-מאי1</name>
@@ -1166,7 +160,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1130</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.01</delta>
 	</option>
 	<option>
 		<name>C01140-ת25-מאי1</name>
@@ -1174,7 +167,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1140</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.98</delta>
 	</option>
 	<option>
 		<name>P01140-ת25-מאי1</name>
@@ -1182,7 +174,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1140</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.02</delta>
 	</option>
 	<option>
 		<name>C01150-ת25-מאי1</name>
@@ -1190,7 +181,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1150</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.96</delta>
 	</option>
 	<option>
 		<name>P01150-ת25-מאי1</name>
@@ -1198,7 +188,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1150</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.04</delta>
 	</option>
 	<option>
 		<name>C01160-ת25-מאי1</name>
@@ -1206,7 +195,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1160</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.91</delta>
 	</option>
 	<option>
 		<name>P01160-ת25-מאי1</name>
@@ -1214,7 +202,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1160</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.09</delta>
 	</option>
 	<option>
 		<name>C01170-ת25-מאי1</name>
@@ -1222,7 +209,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1170</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.84</delta>
 	</option>
 	<option>
 		<name>P01170-ת25-מאי1</name>
@@ -1230,7 +216,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1170</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.16</delta>
 	</option>
 	<option>
 		<name>C01180-ת25-מאי1</name>
@@ -1238,7 +223,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1180</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.71</delta>
 	</option>
 	<option>
 		<name>P01180-ת25-מאי1</name>
@@ -1246,7 +230,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1180</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.29</delta>
 	</option>
 	<option>
 		<name>C01190-ת25-מאי1</name>
@@ -1254,7 +237,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1190</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.5</delta>
 	</option>
 	<option>
 		<name>P01190-ת25-מאי1</name>
@@ -1262,7 +244,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1190</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.5</delta>
 	</option>
 	<option>
 		<name>C01200-ת25-מאי1</name>
@@ -1270,7 +251,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1200</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>99.17</delta>
 	</option>
 	<option>
 		<name>P01200-ת25-מאי1</name>
@@ -1278,7 +258,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1200</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-0.83</delta>
 	</option>
 	<option>
 		<name>C01210-ת25-מאי1</name>
@@ -1286,7 +265,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1210</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>98.66</delta>
 	</option>
 	<option>
 		<name>P01210-ת25-מאי1</name>
@@ -1294,7 +272,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1210</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-1.34</delta>
 	</option>
 	<option>
 		<name>C01220-ת25-מאי1</name>
@@ -1302,7 +279,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1220</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>97.9</delta>
 	</option>
 	<option>
 		<name>P01220-ת25-מאי1</name>
@@ -1310,7 +286,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1220</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-2.1</delta>
 	</option>
 	<option>
 		<name>C01230-ת25-מאי1</name>
@@ -1318,7 +293,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1230</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>96.81</delta>
 	</option>
 	<option>
 		<name>P01230-ת25-מאי1</name>
@@ -1326,7 +300,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1230</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-3.19</delta>
 	</option>
 	<option>
 		<name>C01240-ת25-מאי1</name>
@@ -1334,7 +307,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1240</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>95.32</delta>
 	</option>
 	<option>
 		<name>P01240-ת25-מאי1</name>
@@ -1342,7 +314,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1240</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-4.68</delta>
 	</option>
 	<option>
 		<name>C01250-ת25-מאי1</name>
@@ -1350,7 +321,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1250</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>93.33</delta>
 	</option>
 	<option>
 		<name>P01250-ת25-מאי1</name>
@@ -1358,7 +328,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1250</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-6.67</delta>
 	</option>
 	<option>
 		<name>C01260-ת25-מאי1</name>
@@ -1366,7 +335,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1260</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>90.76</delta>
 	</option>
 	<option>
 		<name>P01260-ת25-מאי1</name>
@@ -1374,7 +342,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1260</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-9.24</delta>
 	</option>
 	<option>
 		<name>C01270-ת25-מאי1</name>
@@ -1382,7 +349,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1270</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>87.55</delta>
 	</option>
 	<option>
 		<name>P01270-ת25-מאי1</name>
@@ -1390,7 +356,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1270</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-12.45</delta>
 	</option>
 	<option>
 		<name>C01280-ת25-מאי1</name>
@@ -1398,7 +363,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1280</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>83.67</delta>
 	</option>
 	<option>
 		<name>P01280-ת25-מאי1</name>
@@ -1406,7 +370,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1280</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-16.33</delta>
 	</option>
 	<option>
 		<name>C01290-ת25-מאי1</name>
@@ -1414,7 +377,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1290</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>79.12</delta>
 	</option>
 	<option>
 		<name>P01290-ת25-מאי1</name>
@@ -1422,7 +384,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1290</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-20.88</delta>
 	</option>
 	<option>
 		<name>C01300-ת25-מאי1</name>
@@ -1430,7 +391,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1300</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>73.94</delta>
 	</option>
 	<option>
 		<name>P01300-ת25-מאי1</name>
@@ -1438,7 +398,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1300</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-26.06</delta>
 	</option>
 	<option>
 		<name>C01310-ת25-מאי1</name>
@@ -1446,7 +405,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1310</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>68.21</delta>
 	</option>
 	<option>
 		<name>P01310-ת25-מאי1</name>
@@ -1454,7 +412,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1310</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-31.79</delta>
 	</option>
 	<option>
 		<name>C01320-ת25-מאי1</name>
@@ -1462,7 +419,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1320</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>62.06</delta>
 	</option>
 	<option>
 		<name>P01320-ת25-מאי1</name>
@@ -1470,7 +426,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1320</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-37.94</delta>
 	</option>
 	<option>
 		<name>C01330-ת25-מאי1</name>
@@ -1478,7 +433,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1330</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>55.63</delta>
 	</option>
 	<option>
 		<name>P01330-ת25-מאי1</name>
@@ -1486,7 +440,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1330</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-44.37</delta>
 	</option>
 	<option>
 		<name>C01340-ת25-מאי1</name>
@@ -1494,7 +447,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1340</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>49.11</delta>
 	</option>
 	<option>
 		<name>P01340-ת25-מאי1</name>
@@ -1502,7 +454,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1340</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-50.89</delta>
 	</option>
 	<option>
 		<name>C01350-ת25-מאי1</name>
@@ -1510,7 +461,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1350</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>42.65</delta>
 	</option>
 	<option>
 		<name>P01350-ת25-מאי1</name>
@@ -1518,7 +468,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1350</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-57.35</delta>
 	</option>
 	<option>
 		<name>C01360-ת25-מאי1</name>
@@ -1526,7 +475,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1360</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>36.43</delta>
 	</option>
 	<option>
 		<name>P01360-ת25-מאי1</name>
@@ -1534,7 +482,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1360</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-63.57</delta>
 	</option>
 	<option>
 		<name>C01370-ת25-מאי1</name>
@@ -1542,7 +489,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1370</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>30.59</delta>
 	</option>
 	<option>
 		<name>P01370-ת25-מאי1</name>
@@ -1550,7 +496,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1370</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-69.41</delta>
 	</option>
 	<option>
 		<name>C01380-ת25-מאי1</name>
@@ -1558,7 +503,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1380</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>25.25</delta>
 	</option>
 	<option>
 		<name>P01380-ת25-מאי1</name>
@@ -1566,7 +510,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1380</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-74.75</delta>
 	</option>
 	<option>
 		<name>C01390-ת25-מאי1</name>
@@ -1574,7 +517,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1390</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>20.47</delta>
 	</option>
 	<option>
 		<name>P01390-ת25-מאי1</name>
@@ -1582,7 +524,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1390</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-79.53</delta>
 	</option>
 	<option>
 		<name>C01400-ת25-מאי1</name>
@@ -1590,7 +531,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1400</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>16.3</delta>
 	</option>
 	<option>
 		<name>P01400-ת25-מאי1</name>
@@ -1598,7 +538,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1400</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-83.7</delta>
 	</option>
 	<option>
 		<name>C01410-ת25-מאי1</name>
@@ -1606,7 +545,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1410</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>12.76</delta>
 	</option>
 	<option>
 		<name>P01410-ת25-מאי1</name>
@@ -1614,7 +552,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1410</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-87.24</delta>
 	</option>
 	<option>
 		<name>C01420-ת25-מאי1</name>
@@ -1622,7 +559,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1420</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>9.8</delta>
 	</option>
 	<option>
 		<name>P01420-ת25-מאי1</name>
@@ -1630,7 +566,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1420</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-90.2</delta>
 	</option>
 	<option>
 		<name>C01430-ת25-מאי1</name>
@@ -1638,7 +573,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1430</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>7.4</delta>
 	</option>
 	<option>
 		<name>P01430-ת25-מאי1</name>
@@ -1646,7 +580,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1430</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-92.6</delta>
 	</option>
 	<option>
 		<name>C01440-ת25-מאי1</name>
@@ -1654,7 +587,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1440</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>5.49</delta>
 	</option>
 	<option>
 		<name>P01440-ת25-מאי1</name>
@@ -1662,7 +594,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1440</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-94.51</delta>
 	</option>
 	<option>
 		<name>C01450-ת25-מאי1</name>
@@ -1670,7 +601,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1450</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>4</delta>
 	</option>
 	<option>
 		<name>P01450-ת25-מאי1</name>
@@ -1678,7 +608,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1450</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-96</delta>
 	</option>
 	<option>
 		<name>C01460-ת25-מאי1</name>
@@ -1686,7 +615,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1460</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>2.86</delta>
 	</option>
 	<option>
 		<name>P01460-ת25-מאי1</name>
@@ -1694,7 +622,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1460</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-97.14</delta>
 	</option>
 	<option>
 		<name>C01470-ת25-מאי1</name>
@@ -1702,7 +629,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1470</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>2.01</delta>
 	</option>
 	<option>
 		<name>P01470-ת25-מאי1</name>
@@ -1710,7 +636,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1470</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-97.99</delta>
 	</option>
 	<option>
 		<name>C01480-ת25-מאי1</name>
@@ -1718,7 +643,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1480</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>1.39</delta>
 	</option>
 	<option>
 		<name>P01480-ת25-מאי1</name>
@@ -1726,7 +650,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1480</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-98.61</delta>
 	</option>
 	<option>
 		<name>C01490-ת25-מאי1</name>
@@ -1734,7 +657,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1490</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.95</delta>
 	</option>
 	<option>
 		<name>P01490-ת25-מאי1</name>
@@ -1742,7 +664,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1490</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.05</delta>
 	</option>
 	<option>
 		<name>C01500-ת25-מאי1</name>
@@ -1750,7 +671,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1500</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.63</delta>
 	</option>
 	<option>
 		<name>P01500-ת25-מאי1</name>
@@ -1758,7 +678,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1500</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.37</delta>
 	</option>
 	<option>
 		<name>C01510-ת25-מאי1</name>
@@ -1766,7 +685,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1510</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.42</delta>
 	</option>
 	<option>
 		<name>P01510-ת25-מאי1</name>
@@ -1774,7 +692,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1510</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.58</delta>
 	</option>
 	<option>
 		<name>C01520-ת25-מאי1</name>
@@ -1782,7 +699,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1520</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.27</delta>
 	</option>
 	<option>
 		<name>P01520-ת25-מאי1</name>
@@ -1790,7 +706,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1520</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.73</delta>
 	</option>
 	<option>
 		<name>C01530-ת25-מאי1</name>
@@ -1798,7 +713,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1530</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.17</delta>
 	</option>
 	<option>
 		<name>P01530-ת25-מאי1</name>
@@ -1806,7 +720,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1530</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.83</delta>
 	</option>
 	<option>
 		<name>C01540-ת25-מאי1</name>
@@ -1814,7 +727,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1540</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.11</delta>
 	</option>
 	<option>
 		<name>P01540-ת25-מאי1</name>
@@ -1822,7 +734,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1540</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.89</delta>
 	</option>
 	<option>
 		<name>C01550-ת25-מאי1</name>
@@ -1830,7 +741,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1550</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.07</delta>
 	</option>
 	<option>
 		<name>P01550-ת25-מאי1</name>
@@ -1838,7 +748,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1550</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.93</delta>
 	</option>
 	<option>
 		<name>C01560-ת25-מאי1</name>
@@ -1846,7 +755,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1560</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.04</delta>
 	</option>
 	<option>
 		<name>P01560-ת25-מאי1</name>
@@ -1854,7 +762,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1560</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.96</delta>
 	</option>
 	<option>
 		<name>C01570-ת25-מאי1</name>
@@ -1862,7 +769,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1570</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.02</delta>
 	</option>
 	<option>
 		<name>P01570-ת25-מאי1</name>
@@ -1870,7 +776,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1570</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.98</delta>
 	</option>
 	<option>
 		<name>C01580-ת25-מאי1</name>
@@ -1878,7 +783,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1580</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.01</delta>
 	</option>
 	<option>
 		<name>P01580-ת25-מאי1</name>
@@ -1886,7 +790,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1580</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.99</delta>
 	</option>
 	<option>
 		<name>C01590-ת25-מאי1</name>
@@ -1894,7 +797,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1590</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0.01</delta>
 	</option>
 	<option>
 		<name>P01590-ת25-מאי1</name>
@@ -1902,7 +804,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1590</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-99.99</delta>
 	</option>
 	<option>
 		<name>C01600-ת25-מאי1</name>
@@ -1910,7 +811,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1600</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>P01600-ת25-מאי1</name>
@@ -1918,7 +818,20 @@
 		<leverage>100</leverage>
 		<exercise_price>1600</exercise_price>
 		<expiration>27/05/2011</expiration>
-		<delta>-100</delta>
+	</option>
+	<option>
+		<name>C01610-ת25-מאי1</name>
+		<id>80717549</id>
+		<leverage>100</leverage>
+		<exercise_price>1610</exercise_price>
+		<expiration>27/05/2011</expiration>
+	</option>
+	<option>
+		<name>P01610-ת25-מאי1</name>
+		<id>80717564</id>
+		<leverage>100</leverage>
+		<exercise_price>1610</exercise_price>
+		<expiration>27/05/2011</expiration>
 	</option>
 	<option>
 		<name>C00001-ת25-יונ1</name>
@@ -1926,7 +839,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>C01040-ת25-יונ1</name>
@@ -1934,7 +846,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1040</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01040-ת25-יונ1</name>
@@ -1942,7 +853,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1040</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01060-ת25-יונ1</name>
@@ -1950,7 +860,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1060</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>100</delta>
 	</option>
 	<option>
 		<name>P01060-ת25-יונ1</name>
@@ -1958,7 +867,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1060</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>0</delta>
 	</option>
 	<option>
 		<name>C01080-ת25-יונ1</name>
@@ -1966,7 +874,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1080</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>99.99</delta>
 	</option>
 	<option>
 		<name>P01080-ת25-יונ1</name>
@@ -1974,7 +881,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1080</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-0.01</delta>
 	</option>
 	<option>
 		<name>C01100-ת25-יונ1</name>
@@ -1982,7 +888,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1100</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>99.97</delta>
 	</option>
 	<option>
 		<name>P01100-ת25-יונ1</name>
@@ -1990,7 +895,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1100</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-0.03</delta>
 	</option>
 	<option>
 		<name>C01120-ת25-יונ1</name>
@@ -1998,7 +902,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1120</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>99.91</delta>
 	</option>
 	<option>
 		<name>P01120-ת25-יונ1</name>
@@ -2006,7 +909,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1120</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-0.09</delta>
 	</option>
 	<option>
 		<name>C01140-ת25-יונ1</name>
@@ -2014,7 +916,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1140</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>99.75</delta>
 	</option>
 	<option>
 		<name>P01140-ת25-יונ1</name>
@@ -2022,7 +923,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1140</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-0.25</delta>
 	</option>
 	<option>
 		<name>C01160-ת25-יונ1</name>
@@ -2030,7 +930,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1160</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>99.4</delta>
 	</option>
 	<option>
 		<name>P01160-ת25-יונ1</name>
@@ -2038,7 +937,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1160</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-0.6</delta>
 	</option>
 	<option>
 		<name>C01180-ת25-יונ1</name>
@@ -2046,7 +944,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1180</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>98.68</delta>
 	</option>
 	<option>
 		<name>P01180-ת25-יונ1</name>
@@ -2054,7 +951,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1180</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-1.32</delta>
 	</option>
 	<option>
 		<name>C01200-ת25-יונ1</name>
@@ -2062,7 +958,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1200</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>97.33</delta>
 	</option>
 	<option>
 		<name>P01200-ת25-יונ1</name>
@@ -2070,7 +965,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1200</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-2.67</delta>
 	</option>
 	<option>
 		<name>C01220-ת25-יונ1</name>
@@ -2078,7 +972,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1220</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>95.02</delta>
 	</option>
 	<option>
 		<name>P01220-ת25-יונ1</name>
@@ -2086,7 +979,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1220</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-4.98</delta>
 	</option>
 	<option>
 		<name>C01240-ת25-יונ1</name>
@@ -2094,7 +986,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1240</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>91.42</delta>
 	</option>
 	<option>
 		<name>P01240-ת25-יונ1</name>
@@ -2102,7 +993,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1240</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-8.58</delta>
 	</option>
 	<option>
 		<name>C01260-ת25-יונ1</name>
@@ -2110,7 +1000,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1260</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>86.26</delta>
 	</option>
 	<option>
 		<name>P01260-ת25-יונ1</name>
@@ -2118,7 +1007,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1260</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-13.74</delta>
 	</option>
 	<option>
 		<name>C01280-ת25-יונ1</name>
@@ -2126,7 +1014,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1280</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>79.42</delta>
 	</option>
 	<option>
 		<name>P01280-ת25-יונ1</name>
@@ -2134,7 +1021,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1280</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-20.58</delta>
 	</option>
 	<option>
 		<name>C01300-ת25-יונ1</name>
@@ -2142,7 +1028,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1300</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>71.04</delta>
 	</option>
 	<option>
 		<name>P01300-ת25-יונ1</name>
@@ -2150,7 +1035,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1300</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-28.96</delta>
 	</option>
 	<option>
 		<name>C01320-ת25-יונ1</name>
@@ -2158,7 +1042,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1320</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>61.48</delta>
 	</option>
 	<option>
 		<name>P01320-ת25-יונ1</name>
@@ -2166,7 +1049,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1320</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-38.52</delta>
 	</option>
 	<option>
 		<name>C01340-ת25-יונ1</name>
@@ -2174,7 +1056,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1340</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>51.32</delta>
 	</option>
 	<option>
 		<name>P01340-ת25-יונ1</name>
@@ -2182,7 +1063,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1340</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-48.68</delta>
 	</option>
 	<option>
 		<name>C01360-ת25-יונ1</name>
@@ -2190,7 +1070,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1360</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>41.23</delta>
 	</option>
 	<option>
 		<name>P01360-ת25-יונ1</name>
@@ -2198,7 +1077,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1360</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-58.77</delta>
 	</option>
 	<option>
 		<name>C01380-ת25-יונ1</name>
@@ -2206,7 +1084,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1380</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>31.82</delta>
 	</option>
 	<option>
 		<name>P01380-ת25-יונ1</name>
@@ -2214,7 +1091,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1380</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-68.18</delta>
 	</option>
 	<option>
 		<name>C01400-ת25-יונ1</name>
@@ -2222,7 +1098,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1400</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>23.57</delta>
 	</option>
 	<option>
 		<name>P01400-ת25-יונ1</name>
@@ -2230,7 +1105,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1400</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-76.43</delta>
 	</option>
 	<option>
 		<name>C01420-ת25-יונ1</name>
@@ -2238,7 +1112,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1420</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>16.75</delta>
 	</option>
 	<option>
 		<name>P01420-ת25-יונ1</name>
@@ -2246,7 +1119,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1420</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-83.25</delta>
 	</option>
 	<option>
 		<name>C01440-ת25-יונ1</name>
@@ -2254,7 +1126,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1440</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>11.41</delta>
 	</option>
 	<option>
 		<name>P01440-ת25-יונ1</name>
@@ -2262,7 +1133,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1440</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-88.59</delta>
 	</option>
 	<option>
 		<name>C01460-ת25-יונ1</name>
@@ -2270,7 +1140,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1460</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>7.46</delta>
 	</option>
 	<option>
 		<name>P01460-ת25-יונ1</name>
@@ -2278,7 +1147,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1460</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-92.54</delta>
 	</option>
 	<option>
 		<name>C01480-ת25-יונ1</name>
@@ -2286,7 +1154,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1480</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>4.69</delta>
 	</option>
 	<option>
 		<name>P01480-ת25-יונ1</name>
@@ -2294,7 +1161,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1480</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-95.31</delta>
 	</option>
 	<option>
 		<name>C01500-ת25-יונ1</name>
@@ -2302,7 +1168,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1500</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>2.83</delta>
 	</option>
 	<option>
 		<name>P01500-ת25-יונ1</name>
@@ -2310,7 +1175,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1500</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-97.17</delta>
 	</option>
 	<option>
 		<name>C01520-ת25-יונ1</name>
@@ -2318,7 +1182,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1520</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>1.64</delta>
 	</option>
 	<option>
 		<name>P01520-ת25-יונ1</name>
@@ -2326,7 +1189,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1520</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-98.36</delta>
 	</option>
 	<option>
 		<name>C01540-ת25-יונ1</name>
@@ -2334,7 +1196,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1540</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>0.91</delta>
 	</option>
 	<option>
 		<name>P01540-ת25-יונ1</name>
@@ -2342,7 +1203,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1540</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-99.09</delta>
 	</option>
 	<option>
 		<name>C01560-ת25-יונ1</name>
@@ -2350,7 +1210,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1560</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>0.49</delta>
 	</option>
 	<option>
 		<name>P01560-ת25-יונ1</name>
@@ -2358,7 +1217,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1560</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-99.51</delta>
 	</option>
 	<option>
 		<name>C01580-ת25-יונ1</name>
@@ -2366,7 +1224,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1580</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>0.25</delta>
 	</option>
 	<option>
 		<name>P01580-ת25-יונ1</name>
@@ -2374,7 +1231,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1580</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-99.75</delta>
 	</option>
 	<option>
 		<name>C01600-ת25-יונ1</name>
@@ -2382,7 +1238,6 @@
 		<leverage>100</leverage>
 		<exercise_price>1600</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>0.13</delta>
 	</option>
 	<option>
 		<name>P01600-ת25-יונ1</name>
@@ -2390,6 +1245,390 @@
 		<leverage>100</leverage>
 		<exercise_price>1600</exercise_price>
 		<expiration>24/06/2011</expiration>
-		<delta>-99.87</delta>
+	</option>
+	<option>
+		<name>C00001-ת25-יול1</name>
+		<id>80718356</id>
+		<leverage>100</leverage>
+		<exercise_price>1</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01060-ת25-יול1</name>
+		<id>80721756</id>
+		<leverage>100</leverage>
+		<exercise_price>1060</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01060-ת25-יול1</name>
+		<id>80721764</id>
+		<leverage>100</leverage>
+		<exercise_price>1060</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01080-ת25-יול1</name>
+		<id>80718604</id>
+		<leverage>100</leverage>
+		<exercise_price>1080</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01080-ת25-יול1</name>
+		<id>80718869</id>
+		<leverage>100</leverage>
+		<exercise_price>1080</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01100-ת25-יול1</name>
+		<id>80718596</id>
+		<leverage>100</leverage>
+		<exercise_price>1100</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01100-ת25-יול1</name>
+		<id>80718851</id>
+		<leverage>100</leverage>
+		<exercise_price>1100</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01120-ת25-יול1</name>
+		<id>80718588</id>
+		<leverage>100</leverage>
+		<exercise_price>1120</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01120-ת25-יול1</name>
+		<id>80718844</id>
+		<leverage>100</leverage>
+		<exercise_price>1120</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01140-ת25-יול1</name>
+		<id>80718570</id>
+		<leverage>100</leverage>
+		<exercise_price>1140</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01140-ת25-יול1</name>
+		<id>80718836</id>
+		<leverage>100</leverage>
+		<exercise_price>1140</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01160-ת25-יול1</name>
+		<id>80718562</id>
+		<leverage>100</leverage>
+		<exercise_price>1160</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01160-ת25-יול1</name>
+		<id>80718828</id>
+		<leverage>100</leverage>
+		<exercise_price>1160</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01180-ת25-יול1</name>
+		<id>80718554</id>
+		<leverage>100</leverage>
+		<exercise_price>1180</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01180-ת25-יול1</name>
+		<id>80718810</id>
+		<leverage>100</leverage>
+		<exercise_price>1180</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01200-ת25-יול1</name>
+		<id>80718547</id>
+		<leverage>100</leverage>
+		<exercise_price>1200</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01200-ת25-יול1</name>
+		<id>80718802</id>
+		<leverage>100</leverage>
+		<exercise_price>1200</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01220-ת25-יול1</name>
+		<id>80718539</id>
+		<leverage>100</leverage>
+		<exercise_price>1220</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01220-ת25-יול1</name>
+		<id>80718794</id>
+		<leverage>100</leverage>
+		<exercise_price>1220</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01240-ת25-יול1</name>
+		<id>80718521</id>
+		<leverage>100</leverage>
+		<exercise_price>1240</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01240-ת25-יול1</name>
+		<id>80718786</id>
+		<leverage>100</leverage>
+		<exercise_price>1240</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01260-ת25-יול1</name>
+		<id>80718513</id>
+		<leverage>100</leverage>
+		<exercise_price>1260</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01260-ת25-יול1</name>
+		<id>80718778</id>
+		<leverage>100</leverage>
+		<exercise_price>1260</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01280-ת25-יול1</name>
+		<id>80718505</id>
+		<leverage>100</leverage>
+		<exercise_price>1280</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01280-ת25-יול1</name>
+		<id>80718760</id>
+		<leverage>100</leverage>
+		<exercise_price>1280</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01300-ת25-יול1</name>
+		<id>80718497</id>
+		<leverage>100</leverage>
+		<exercise_price>1300</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01300-ת25-יול1</name>
+		<id>80718752</id>
+		<leverage>100</leverage>
+		<exercise_price>1300</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01320-ת25-יול1</name>
+		<id>80718489</id>
+		<leverage>100</leverage>
+		<exercise_price>1320</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01320-ת25-יול1</name>
+		<id>80718745</id>
+		<leverage>100</leverage>
+		<exercise_price>1320</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01340-ת25-יול1</name>
+		<id>80718471</id>
+		<leverage>100</leverage>
+		<exercise_price>1340</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01340-ת25-יול1</name>
+		<id>80718737</id>
+		<leverage>100</leverage>
+		<exercise_price>1340</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01360-ת25-יול1</name>
+		<id>80718612</id>
+		<leverage>100</leverage>
+		<exercise_price>1360</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01360-ת25-יול1</name>
+		<id>80718877</id>
+		<leverage>100</leverage>
+		<exercise_price>1360</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01380-ת25-יול1</name>
+		<id>80718620</id>
+		<leverage>100</leverage>
+		<exercise_price>1380</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01380-ת25-יול1</name>
+		<id>80718885</id>
+		<leverage>100</leverage>
+		<exercise_price>1380</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01400-ת25-יול1</name>
+		<id>80718638</id>
+		<leverage>100</leverage>
+		<exercise_price>1400</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01400-ת25-יול1</name>
+		<id>80718893</id>
+		<leverage>100</leverage>
+		<exercise_price>1400</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01420-ת25-יול1</name>
+		<id>80718646</id>
+		<leverage>100</leverage>
+		<exercise_price>1420</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01420-ת25-יול1</name>
+		<id>80718901</id>
+		<leverage>100</leverage>
+		<exercise_price>1420</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01440-ת25-יול1</name>
+		<id>80718653</id>
+		<leverage>100</leverage>
+		<exercise_price>1440</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01440-ת25-יול1</name>
+		<id>80718919</id>
+		<leverage>100</leverage>
+		<exercise_price>1440</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01460-ת25-יול1</name>
+		<id>80718661</id>
+		<leverage>100</leverage>
+		<exercise_price>1460</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01460-ת25-יול1</name>
+		<id>80718927</id>
+		<leverage>100</leverage>
+		<exercise_price>1460</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01480-ת25-יול1</name>
+		<id>80718679</id>
+		<leverage>100</leverage>
+		<exercise_price>1480</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01480-ת25-יול1</name>
+		<id>80718935</id>
+		<leverage>100</leverage>
+		<exercise_price>1480</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01500-ת25-יול1</name>
+		<id>80718687</id>
+		<leverage>100</leverage>
+		<exercise_price>1500</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01500-ת25-יול1</name>
+		<id>80718943</id>
+		<leverage>100</leverage>
+		<exercise_price>1500</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01520-ת25-יול1</name>
+		<id>80718695</id>
+		<leverage>100</leverage>
+		<exercise_price>1520</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01520-ת25-יול1</name>
+		<id>80718950</id>
+		<leverage>100</leverage>
+		<exercise_price>1520</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01540-ת25-יול1</name>
+		<id>80718703</id>
+		<leverage>100</leverage>
+		<exercise_price>1540</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01540-ת25-יול1</name>
+		<id>80718968</id>
+		<leverage>100</leverage>
+		<exercise_price>1540</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01560-ת25-יול1</name>
+		<id>80718711</id>
+		<leverage>100</leverage>
+		<exercise_price>1560</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01560-ת25-יול1</name>
+		<id>80718976</id>
+		<leverage>100</leverage>
+		<exercise_price>1560</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>C01580-ת25-יול1</name>
+		<id>80718729</id>
+		<leverage>100</leverage>
+		<exercise_price>1580</exercise_price>
+		<expiration>29/07/2011</expiration>
+	</option>
+	<option>
+		<name>P01580-ת25-יול1</name>
+		<id>80718984</id>
+		<leverage>100</leverage>
+		<exercise_price>1580</exercise_price>
+		<expiration>29/07/2011</expiration>
 	</option>
 </tase>

@@ -11,7 +11,6 @@
               <xs:element name="leverage" type="xs:unsignedByte" />
               <xs:element name="exercise_price" type="xs:unsignedShort" />
               <xs:element name="expiration" type="xs:date" />
-              <xs:element name="delta" type="xs:unsignedByte" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
