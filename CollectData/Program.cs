@@ -13,7 +13,7 @@ namespace CollectData
     class Program
     {
         enum DDE_VALUES { 
-            TSHR, SFUT, SINT, IVVL, OPOS, POSP, AVRP, DTMR, DVOL, BLI1, BL1A, SLI1, SL1A, DLTA};
+            TSHR, SFUT, SINT, IVVL, OPOS, POSP, AVRP, DTMR, DVOL, BLI1, BL1A, SLI1, SL1A, DLTA, TETA, VEGA, GAMA};
 
         private static TextWriter tw;
 
@@ -95,8 +95,12 @@ namespace CollectData
                     client.Advise += OnAdvise;
 
                     // Wait for the user to press ENTER before proceding.
-                    Console.WriteLine("Press ENTER to quit...");
-                    Console.ReadLine();
+                    Console.WriteLine("Press Ctrl X to quit...");
+                    ConsoleKeyInfo info = Console.ReadKey(true);
+                    while (info.Key != ConsoleKey.X && info.Modifiers != ConsoleModifiers.Control)
+                    {
+                        info = Console.ReadKey(true);
+                    }
                 }
             }
             catch (Exception e)
@@ -115,7 +119,7 @@ namespace CollectData
             string value = Regex.Replace(args.Text, @"\s", "");
             value = value.Replace(Convert.ToChar(0x0).ToString(), "");
             if (value.Length > 0)
-                tw.WriteLine("{0}\t{1}\t{2:HH:mm:ss.fff}", args.Item, value, DateTime.Now);
+                tw.WriteLine("{0}\t{1}\t{2:dd/MM/yyyy HH:mm:ss.fff}", args.Item, value, DateTime.Now);
         }
 
         private static void OnDisconnected(object sender, DdeDisconnectedEventArgs args)
